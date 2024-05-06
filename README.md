@@ -1,3 +1,10 @@
+THIS IS A COPY OF "https://demo.templatemonster.com/demo/304562.html" Website
+
+ALL THE IMAGES AND TEXT TAKEN FROM THERE ("https://demo.templatemonster.com/demo/304562.html")
+
+NOT FOR PUBLIC USE (PRIVATE USE ONLY)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+cd .
 ### `npm start`
 
 Runs the app in the development mode.\
