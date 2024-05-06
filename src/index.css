@@ -1,0 +1,197 @@
+/* * {
+  border: solid 1px #deef0b;
+} */
+body {
+  margin: 0;
+  font-family: Reem Kufi;
+  background: #212529;
+}
+
+.nav-link:hover {
+  color: #deef0b;
+}
+
+.contactUsA {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.carouselImage {
+  width: 100vw;
+  padding-top: 50px;
+  max-height: 100vh;
+  min-height: 50vh;
+  object-fit: cover;
+  object-position: center top;
+}
+.img {
+  transform: scale(1);
+  transition: 0.2s;
+}
+.img:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3rem;
+}
+h3:hover {
+  color: #deef0b;
+}
+.h1 {
+  font-size: 3rem;
+}
+.h2 {
+  font-size: 4rem;
+}
+li {
+  /* margin: 0 auto; */
+  list-style-type: none;
+  line-height: 40px;
+  cursor: pointer;
+}
+li:hover {
+  color: #deef0b;
+}
+
+.titleSection {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.carousel-caption {
+  text-align: left;
+  width: 35%;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+}
+
+.btn-success {
+  font-size: 2vw;
+  padding-block: 10px;
+  padding-inline: 20px;
+  margin-top: 10px;
+  border-radius: 50px;
+  color: black;
+  background-color: #deef0b;
+  border: none;
+}
+.btn-success:hover {
+  color: #deef0b;
+  background-color: black;
+}
+.fa-solid {
+  color: #deef0b;
+}
+.fa-brands {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #303132;
+  margin: 15px auto;
+  padding-top: 11px;
+  margin-inline: 3px;
+  text-align: center;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+.fa-brands:hover {
+  color: #303132;
+  background-color: #deef0b;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  font-size: 3rem;
+  background-color: #303132;
+  color: #deef0b;
+  padding-top: 35px;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+.icon:hover {
+  background-color: #deef0b;
+  color: #303132;
+  transition: 0.2s;
+}
+
+.pricingPlan:hover {
+  border-color: #deef0b !important;
+}
+.pricingPlan:hover .btnPricing {
+  color: #303132 !important;
+  background-color: #deef0b !important;
+  border-color: #deef0b !important;
+}
+
+.btnPlay {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  padding-left: 15px;
+  border-radius: 50%;
+  color: black;
+  background: none;
+  border: 3px solid #deef0b;
+}
+
+.videoModal {
+  position: fixed;
+  background-color: rgb(0 0 0 / 80%);
+
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.theVideo {
+  z-index: 12;
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 5%;
+}
+
+.trainer:hover .h3 {
+  color: #deef0b;
+  transition: 0.5s;
+}
+
+.image {
+  object-position: center;
+  transform: scale(1) !important;
+  transition: 0.3s;
+}
+.image:hover {
+  transform: scale(1.05) !important;
+  transition: 0.3s;
+}
+.inputs {
+  max-width: 40%;
+  margin: 0 auto;
+}
+/* BOOTSTRAP CSS IMPORT */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+/* FONT AWESOME IMPORT */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
+
+/* Font Import "Reem Kufi" */
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap");
+
+/* MOBILE CSS */
+@import "../src/phone.css";
+
+/* FLICKY CDN */
+@import url("https://unpkg.com/flickity@2/dist/flickity.min.css");
+.carousel {
+  background: #eee;
+}
